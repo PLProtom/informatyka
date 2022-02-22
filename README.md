@@ -1,4 +1,4 @@
-# \Informatyka
+# Informatyka
 
 `Tomasz Cichoń`
 
