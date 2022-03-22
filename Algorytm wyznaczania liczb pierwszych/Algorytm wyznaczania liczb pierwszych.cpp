@@ -7,21 +7,22 @@ int main()
     int lp = 0;
     int p = 2;
     int d = 2;
-
+    bool pierwsza = false;
     cout << "Ile liczb pierwszych wyswietlic?\n";
     cin >> n;
     cout << "Liczby pierwsze: ";
 
     while (lp < n)
     {
-        while (d < p)
+        for (int d = 2; d != p - 1; d++)
         {
-            if (p % d == 0)
+            if (p % d != 0)
             {
-                cout << p << ", ";
-                lp++;
+                cout << p;
             }
+
         }
+        lp++;
         p++;
     }
 }
